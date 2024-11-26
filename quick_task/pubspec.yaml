@@ -1,0 +1,30 @@
+name: quick_task
+description: "A task management app using Flutter and Back4App."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: "3.5.4"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # Add Flutter and Back4App dependencies
+  provider: 6.1.2           # State management for your app
+  parse_server_sdk_flutter: ^9.0.0  # To connect to Back4App's backend
+  intl: ^0.19.0              # For handling date formatting
+  sembast: ^3.7.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  
+
+flutter:
+  uses-material-design: true
+
+  # Add assets configuration if you plan to include images or other static files
+ # assets:
+ #   - assets/
